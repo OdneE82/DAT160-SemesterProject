@@ -30,7 +30,11 @@ setup(
             'marker_recognition = multi_robot_challenge_23.marker_pose:main',
             'robot_handler = multi_robot_challenge_23.robot_handler:main',
             'leader = multi_robot_challenge_23.leader:main',
-            'controller = multi_robot_challenge_23.controller:main',
+            'controller = multi_robot_challenge_23.master_controller:main',
+            'gotopoint_controller = multi_robot_challenge_23.go_to_point:main',
+            'wallfollower_controller = multi_robot_challenge23.wall_follower:main',
+            'bug2_controller = multi_robot_challenge_23.bug2:main',
+            'robot_controller = multi_robot_challenge_23.robot:main',
         ],
     },
 )
